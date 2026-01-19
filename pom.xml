@@ -73,9 +73,14 @@
         <!-- OpenAI Official SDK Provider (supports Azure OpenAI) -->
         <dependency>
             <groupId>dev.langchain4j</groupId>
-            <artifactId>langchain4j-open-ai-official</artifactId>
-            <version>${langchain4j.agentic.version}</version>
+            <artifactId>langchain4j-open-ai</artifactId>
+            <version>${langchain4j.version}</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>dev.langchain4j</groupId>-->
+<!--            <artifactId>langchain4j-open-ai-official</artifactId>-->
+<!--            <version>${langchain4j.agentic.version}</version>-->
+<!--        </dependency>-->
 
         <!-- Azure Identity for Azure OpenAI authentication -->
         <dependency>
